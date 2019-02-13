@@ -62,18 +62,34 @@
 		0547D64322131809007CB591 /* SlideInTransition */ = {
 			isa = PBXGroup;
 			children = (
+				0547D65F2214DB40007CB591 /* MenuTransition */,
+				0547D65E2214DB22007CB591 /* Controllers */,
 				0547D64422131809007CB591 /* AppDelegate.swift */,
-				0547D64622131809007CB591 /* HomeViewController.swift */,
 				0547D64822131809007CB591 /* Main.storyboard */,
 				0547D64B22131813007CB591 /* Assets.xcassets */,
 				0547D64D22131813007CB591 /* LaunchScreen.storyboard */,
 				0547D65022131813007CB591 /* Info.plist */,
+			);
+			path = SlideInTransition;
+			sourceTree = "<group>";
+		};
+		0547D65E2214DB22007CB591 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0547D64622131809007CB591 /* HomeViewController.swift */,
 				0547D65622131B98007CB591 /* MenuViewController.swift */,
-				0547D65822134C01007CB591 /* SlideInTransition.swift */,
 				0547D65A22147BC1007CB591 /* ProfileController.swift */,
 				0547D65C2214863D007CB591 /* CameraController.swift */,
 			);
-			path = SlideInTransition;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0547D65F2214DB40007CB591 /* MenuTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0547D65822134C01007CB591 /* SlideInTransition.swift */,
+			);
+			path = MenuTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
